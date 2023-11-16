@@ -1,0 +1,85 @@
+\section{Teoretični uvod}\label{sec:uvod}
+\subsection{Lastno nihanje torzijskega nihala}
+Nihanje je periodično gibanje okoli stabilne ravnovesne lege. nedušeno nihanje opišemo z enačbo:
+
+\centering \Large
+\begin{equation}
+    \Phi = A\sin(\omega_0t); \omega_0 = \sqrt{D/J} 
+\end{equation}
+\raggedright \normalsize
+
+V resnici ne obstaja nedušeno nihanje, saj se zaradi različnih uporov energija nihala manjša, to dušeno nihanje opišemo z enačbo:
+
+
+\centering \Large
+\begin{equation}
+    \Phi = A_0e^{-\beta t}\sin(\omega_d t); \omega_d = \sqrt{\omega_0^2-\beta^2}
+\end{equation}
+\raggedright \normalsize
+
+ iz tega sledi:
+ 
+\centering \Large
+\begin{equation}
+    A_n = A_0e^{-\frac{2\pi\beta n}{\omega_d}}
+\end{equation}
+\raggedright \normalsize
+
+z logaritmi dobimo:
+
+\centering \Large
+\begin{equation}
+    \beta = \frac{\omega_d}{2\pi n}\ln{\frac{A_0}{A_n}}
+\end{equation}
+\raggedright \normalsize
+
+\subsection{Vsiljeno nihanje torzijskega nihala}
+
+Pri lastnem nihanju torzijskega nihala, po začetnim sunkom navora, frekvenco določajo lastnosti nihala ($J, D, \beta$), amplituda pa je odvisna od začetnega nihanja.
+Na nihalo pa lahko deluje tudi sinusno nihajoč zunanji izvor navora, za katerega velja:
+
+\centering \Large
+\begin{equation}
+    M = M_0*\sin(\omega t)
+\end{equation}
+\raggedright \normalsize
+
+, se kmalu ustali s frekvenco tega navora, sicer ne v isti fazi. Takrat pravimo, da nihalo vsiljeno niha, kar opišemo z izrazom:
+
+\centering \Large
+\begin{equation}
+    \Phi = B \sin(\omega t - \delta)
+\end{equation}
+\raggedright \normalsize
+
+Amplituda $B$ je odvisna od amplitude $M_0$ navora M, razen tega pa od krožne frekvence $\beta$ in od lastnosti nihala. Za torzijsko nihalo z vsiljenim nihanjem velja tudi:
+
+\centering \Large
+\begin{equation}
+    B = \frac{B_0}{\sqrt{[1-(\frac{\omega}{\omega_0})^2]^2 + a^2(\frac{\omega}{\omega_0})^2}}
+\end{equation}
+\begin{equation}
+    B_0 = \frac{M_0}{D}
+\end{equation}
+\begin{equation}
+    a = \frac{2\beta}{\omega_0}
+\end{equation}
+\begin{equation}
+     \tan(\delta) = \frac{a(\frac{\omega}{\omega_0})}{1-(\frac{\omega}{\omega_0})^2}
+\end{equation}
+\raggedright \normalsize
+
+Amplituda B je konstanta, ker dovajana moč P, s povprečno vrednostjo
+
+\centering \Large
+\begin{equation}
+    \overline{P} = \frac{\omega}{2\pi} \int_0^{2\pi} Md\phi= \frac{1}{2}\omega M_0 B \sin(\delta)
+\end{equation}
+\raggedright \normalsize
+
+ravno pokriva energijske izgube nihala.
+Če spreminjamo frekvenco zunanjega navora $M$ , lahko zasledujemo odvisnost amplitude $B$ od frekvence. Pri majhnih ($\frac{\omega}{\omega_0} \ll 1$) je odmik nihala iz ravnovesne lege ves čas skoraj sorazmeren z navorom $M$ , amplituda pa je $B = B_0 = \frac{M_0}{D}$; fazna razlika med obema nihanjima je zelo majhna ($\delta \approx 0$). Ko povečujemo frekvenco navora, se amplituda povečuje in doseže pri $\omega \approx \omega_0$ največjo vrednost. Pravimo, de je tedaj nihalo v resonanci z navorom. Fazni premik je tedaj približno $90$ $deg$ nihalo zaostaja za navorom za četrt nihaja. Poprečna moč (glej enačbo), ki jo nihalo sprejema, je v okolici resonance največja. Pri nadaljnjem večanju frekvence začne amplituda padati, nihalo pa vedno bolj zaostaja za
+navorom. Pri $\omega \ll \omega_0$ gre amplituda $B$ proti nič, fazni premik pa proti $180$ $deg$.
+Krivuljo, ki nam kaže odvisnost razmerja $B/B_0$ od frekvence navora, imenujemo
+resonančna krivulja 
+
